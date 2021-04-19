@@ -11,7 +11,12 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist",
+    "docs",
+    "index.d.ts",
+    "package.json",
+    "README.md",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
@@ -21,9 +26,10 @@
     "url": "git+https://github.com/yeonjuan/library.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc -b ./tsconfig.json"
   },
   "bugs": {
     "url": "https://github.com/yeonjuan/library/issues"
-  }
+  },
+  "gitHead": "543c92dea3aafa31544d21605f6a0e916ab7252e"
 }
